@@ -17,6 +17,7 @@ public class Application {
         System.out.println("In main method");
 
         System.out.println(controller.sayHello());
+
     }
 
 }
