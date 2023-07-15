@@ -1,7 +1,9 @@
 package dev.selonke.spring.controllers;
 
 import dev.selonke.spring.services.GreetingService;
+import org.springframework.stereotype.Controller;
 
+@Controller
 public class ConstructorInjectedController {
     private final GreetingService greetingService;
 
